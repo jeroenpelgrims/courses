@@ -1,0 +1,31 @@
+<script lang="ts">
+  import Youtube from "$lib/components/Youtube.svelte"
+</script>
+
+# Inleiding
+
+<Youtube code="7p6-s_4IwOE"/>
+
+## Samenvatting video
+In de video wordt er uitgelegd dat ik een probleem heb, namelijk dat ik honger heb.  
+Dan bedenk ik een algoritme (een paar stappen) dat ik kan uitvoeren om tot een oplossing te komen.
+
+Kort samengevat is dit de situatie:  
+**Probleem**: Ik heb honger (mijn maag is leeg)  
+**Oplossing**: Een gevulde maag
+
+Het algoritme dat ik heb bedacht om van het probleem tot de oplossing te komen is het volgende:
+1. Ik zoek eten
+1. Ik bereid dit eten
+1. Ik eet het eten op
+
+Tijdens het uitvoeren van mijn algoritme merk ik dat ik een nieuw probleem heb, ik weet niet hoe ik het eten kan bereiden.  
+Gelukkig had iemand al een algoritme (een stappenplan) op de achterkant van het noedelpakje geschreven hoe ik dit kan doen.
+
+## Over dit onderdeel
+In dit onderdeel zullen we zien:
+- Wat algoritmes zijn
+- Wat programma's zijn
+- Hoe we zelf algoritmes kunnen opstellen
+
+<a href="/courses/algoritmisch-denken/algoritmes/wat-is-een-algoritme" class="button is-primary">Ga verder</a>

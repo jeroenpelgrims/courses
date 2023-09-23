@@ -1,0 +1,104 @@
+<script>
+  import Youtube from "$lib/components/Youtube.svelte"
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import Definition from "$lib/components/Definition.svelte"
+  import AnswerAndReveal from "$lib/components/exercise/AnswerAndReveal.svelte"
+  import OrderAnswers from "$lib/components/exercise/OrderAnswers.svelte"
+</script>
+
+# Wat is een algoritme?
+
+<KennenEnKunnen doelen={[
+  "Weten wat een algoritme is",
+  "Voorbeelden kunnen geven waar we algoritmes tegen komen in het dagelijkse leven"
+]}/>
+
+Bekijk de volgende video's die uitleggen wat een algoritme is:
+
+<Youtube code="tnFpYaZRyTQ" />
+<Youtube code="RUxT_H4uqcY"/>
+
+## Eigenschappen algoritme
+Aan de hand van de video's kunnen we de volgende eigenschappen toekennen aan een algoritme:
+
+<Definition title="Eigenschappen van een algoritme">
+  <ol>
+    <li>Het is een eindige reeks van instructies</li>
+    <li>Waarvan de volgorde belangrijk is</li>
+    <li>Die je uitvoert om tot een gewenst einddoel te raken of probleem op te lossen</li>
+  </ol>
+</Definition>
+
+Hieronder bekijken we elke eigenschap wat nauwkeuriger.
+
+### 1. Het is een <u>eindige</u> reeks van instructies
+
+Een algoritme bestaat dus uit een aantal instructies of stappen die je moet volgen.  
+Het is ook een <u>eindige</u> reeks instructies. Eindig betekent dat de instructies niet oneinding lang doorlopen.  
+Er is een bepaald punt waar je alle instructies hebt uitgevoerd.
+
+### 2. Waarvan de volgorde belangrijk is
+De volgorde waarin de stappen worden uitgevoerd is belangrijk!  
+
+In de eerste video wordt duidelijk gemaakt dat als je aardappelen eerst frituurt, dan schilt en dan pas in frieten snijd je geen goede frieten zult maken.
+
+![Een afbeelding van een foute en en juiste volgorde om frieten te bakken](./volgorde.png)
+
+### 3. Die je uitvoert om tot een gewenst einddoel te raken of probleem op te lossen.  
+
+De reden dat je een algoritme uitvoert is om van een beginsituatie naar een eindsituatie te raken.  
+
+Je hebt bijvoorbeeld vuile kleren, en je wilt ze proper maken.  
+
+**Beginsituatie**: vuile kleren  
+**Gewenste eindsituatie (doel)**: propere kleren
+
+Je zou dan het algoritme (de stappen) van de 2e video kunnen volgen om de was te doen.  
+Deze stappen leggen uit hoe je van de beginsituatie naar de eindsituatie raakt.
+
+<Definition title="Woordgebruik">
+  Vaak worden ook de woorden "Probleem" en "Oplossing" gebruikt in plaats van beginsituatie en eindsituatie.
+  In het voorbeeld hierboven zou dit dan zo zijn:<br/>
+  <strong>Probleem</strong>: vuile kleren<br/>
+  <strong>Oplossing</strong>: propere kleren<br/>
+</Definition>
+
+## Oefeningen
+### 1. Culinair algoritme 
+In de eerste video wordt er gesproken over een "culinair algoritme".
+
+Wat wordt er hiermee bedoeld denk je?
+Welk ander woord kan je gebruiken om dit te beschrijven?
+
+<AnswerAndReveal>
+  Het correcte antwoord was een <strong>recept</strong>.<br/>
+  Het woord culinair staat voor alles dat met eten of kookunst te maken heeft.<br/>
+  Het woord algoritme staat voor een stappenplan.<br/>
+  <br/>
+  Anders gezegd is een culinair algoritme dus een stappenplan om eten te maken.<br/>
+  Een simpeler woord hiervoor is dus gewoon een recept.
+</AnswerAndReveal>
+
+### 2. Volgorde van de stappen
+In de video hieronder wordt er nog een culinair algoritme uitgelegd.  
+Bekijk de stappen nauwkeurig.
+
+<Youtube code="rb0o0F_7RzM" />
+
+Probeer nu zelf de stappen in de juiste volgorde te zetten zoals beschreven in de video.  
+(Je kan de blokjes slepen in de juiste volgorde of de pijltjes achteraan elk blokje gebruiken)
+
+<OrderAnswers correctOrder={[
+  "Verzamel de benodigde ingrediënten en gereedschappen",
+  "Breek eieren boven een kom",
+  "Klop de eieren goed los met een vork",
+  "Smelt een klontje boter (of olie) in een pan",
+  "Voeg het eimengsel toe in de pan",
+  "Laat het vloeibare deel van het ei de pan raken en stollen door de zijkant op te tillen.",
+  "Laat het ei met rust en laat het verderbakken op een laag vuur",
+  "Haal het ei van het vuur wanneer het volledig gestold is.",
+]}/>
+
+
+
+### 3. Welke andere algoritmes ken je?
