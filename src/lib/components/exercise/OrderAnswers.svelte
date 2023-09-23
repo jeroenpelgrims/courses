@@ -4,6 +4,8 @@
 		.map((item) => [item, Math.random()] as const)
 		.sort((a, b) => a[1] - b[1])
 		.map(([item]) => item);
+	let showValidation = false;
+	let showSolution = false;
 
 	function move(from: number, to: number) {
 		const item = userOrder.splice(from, 1);
@@ -19,10 +21,14 @@
 </p>
 
 <ol>
-	{#each userOrder as item, i}
-		<li>
-			<div class="counter">{i + 1}</div>
-			{item}
+	{#each showSolution ? correctOrder : userOrder as item, i}
+		<li
+			class="message"
+			class:is-success={showValidation && item === correctOrder[i]}
+			class:is-danger={showValidation && item !== correctOrder[i]}
+		>
+			<div class="index">{i + 1}</div>
+			<div class="message-body">{item}</div>
 			<div class="buttons">
 				<button class="button is-light is-small" on:click={() => move(i, Math.max(i - 1, 0))}>
 					<span class="icon is-small">
@@ -42,38 +48,62 @@
 	{/each}
 </ol>
 
-<button class="button is-primary">Controleer volgorde</button>
+<button
+	class="button is-primary"
+	on:click={() => {
+		showValidation = !showValidation;
+		showSolution = false;
+	}}
+>
+	{#if showValidation}
+		Verberg verbetering
+	{:else}
+		Controleer volgorde
+	{/if}
+</button>
+
+{#if showValidation}
+	<button class="button is-secondary" on:click={() => (showSolution = !showSolution)}>
+		{#if showSolution}
+			Verberg juiste volgorde
+		{:else}
+			Toon juiste volgorde
+		{/if}
+	</button>
+{/if}
 
 <style lang="scss">
 	ol {
-		margin-left: 0;
-	}
-
-	li {
-		list-style-position: inside;
-		background-color: #eee;
-		padding: 0rem 0.3rem 0rem 0;
+		list-style: none;
 		display: grid;
-		grid-template-columns: min-content 1fr min-content;
-		align-items: center;
-		gap: 0.5rem;
+		gap: 0.2rem;
+		margin-left: 0;
 
-		.counter {
-			background-color: #f9f9f9;
-			width: 2rem;
-			height: 100%;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-
-		.buttons {
+		li {
 			display: grid;
-			grid-template-columns: 1fr 1fr;
-			margin: 0.3rem 0;
+			grid-template-columns: min-content 1fr min-content;
+			margin-bottom: 0;
 
-			button {
-				margin: 0;
+			.index {
+				width: 2rem;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: #fff;
+				font-size: 1.25rem;
+			}
+
+			.message-body {
+				padding-top: 0.75rem;
+				padding-bottom: 0.75rem;
+				padding-left: 1rem;
+			}
+
+			.buttons {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				margin-right: 0.5rem;
 			}
 		}
 	}
