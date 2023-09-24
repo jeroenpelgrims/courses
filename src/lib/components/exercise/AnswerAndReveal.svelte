@@ -1,17 +1,32 @@
 <script lang="ts">
-	export let answer: string;
+	export let multiline: boolean = false;
 	let reveal = false;
 </script>
 
-<form on:submit|preventDefault={() => (reveal = true)}>
-	<div class="field has-addons">
+<form on:submit|preventDefault={() => (reveal = true)} class:multiline>
+	{#if multiline}
 		<p class="control">
-			<input class="input" type="text" placeholder="Vul je antwoord in" required />
+			<textarea class="textarea" placeholder="Vul je antwoord in" required disabled={reveal} />
 		</p>
 		<p class="control">
 			<button class="button is-primary">Controleer antwoord</button>
 		</p>
-	</div>
+	{:else}
+		<div class="field has-addons">
+			<p class="control">
+				<input
+					class="input"
+					type="text"
+					placeholder="Vul je antwoord in"
+					required
+					disabled={reveal}
+				/>
+			</p>
+			<p class="control">
+				<button class="button is-primary">Controleer antwoord</button>
+			</p>
+		</div>
+	{/if}
 </form>
 
 {#if reveal}
@@ -21,3 +36,9 @@
 		</div>
 	</article>
 {/if}
+
+<style lang="scss">
+	form.multiline .field {
+		display: grid;
+	}
+</style>

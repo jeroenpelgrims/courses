@@ -65,18 +65,19 @@ Deze stappen leggen uit hoe je van de beginsituatie naar de eindsituatie raakt.
 
 ## Oefeningen
 ### 1. Culinair algoritme 
-In de eerste video wordt er gesproken over een "culinair algoritme".
+In de eerste video wordt er gesproken over een **culinair algoritme**.
 
 Wat wordt er hiermee bedoeld denk je?
 Welk ander woord kan je gebruiken om dit te beschrijven?
 
 <AnswerAndReveal>
-  Het correcte antwoord was een <strong>recept</strong>.<br/>
-  Het woord culinair staat voor alles dat met eten of kookunst te maken heeft.<br/>
-  Het woord algoritme staat voor een stappenplan.<br/>
-  <br/>
-  Anders gezegd is een culinair algoritme dus een stappenplan om eten te maken.<br/>
-  Een simpeler woord hiervoor is dus gewoon een recept.
+
+  Het correcte antwoord was een **recept**.  
+  Het woord *culinair* staat voor alles dat met *eten of kookunst* te maken heeft.  
+  Het woord *algoritme* staat voor een *stappenplan*.  
+
+  Anders gezegd is een culinair algoritme dus een stappenplan om eten te maken.  
+  Een simpeler woord hiervoor is dus gewoon een **recept**.
 </AnswerAndReveal>
 
 ### 2. Volgorde van de stappen
@@ -99,6 +100,32 @@ Probeer nu zelf de stappen in de juiste volgorde te zetten zoals beschreven in d
   "Haal het ei van het vuur wanneer het volledig gestold is.",
 ]}/>
 
-
-
 ### 3. Welke andere algoritmes ken je?
+<AnswerAndReveal multiline>
+Dit antwoord kan niet automatisch verbeterd worden omdat er zeer veel antwoorden mogelijk zijn.
+
+Je antwoord moest iets zijn waarin een stappenplan zit.  
+Hieronder nog een paar voorbeelden:
+
+**Verkeerslichten**
+1. Eerst wordt er 30 seconden een groen licht getoond
+2. Dan 3 seconden een oranje licht
+3. En dan 30 seconden een rood licht
+4. Ga nu terug naar stap 1
+
+**Het alfabetisch sorteren van toetsen**
+1. Neem een toets van de ongesorteerde stapel en bekijk de achternaam van de leerling.
+2. Zoek in je gesorteerde stapel van toetsen de plek waar je deze toets moet steken.
+3. Ga naar stap 1
+(Dit algoritme kan natuurlijk nog veel gedetailleerder worden neergeschreven)
+
+**Het poetsen van je tanden**
+1. Floss je tanden
+2. Neem je tandenborstel
+3. Doe er wat tandpasta op
+4. Poets voor 2,5 minuten je boventanden
+5. Poets voor 2,5 minuten je ondertanden
+6. Spuug de tandpasta uit
+7. Spoel je tandenborstel af en zet hem terug.
+
+</AnswerAndReveal>
