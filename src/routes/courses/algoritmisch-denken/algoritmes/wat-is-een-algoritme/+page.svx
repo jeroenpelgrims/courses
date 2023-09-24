@@ -67,8 +67,8 @@ Deze stappen leggen uit hoe je van de beginsituatie naar de eindsituatie raakt.
 ### 1. Culinair algoritme 
 In de eerste video wordt er gesproken over een **culinair algoritme**.
 
-Wat wordt er hiermee bedoeld denk je?
-Welk ander woord kan je gebruiken om dit te beschrijven?
+Wat wordt er hiermee bedoeld denk je?  
+Is er een makkelijker woord om het zelfde te beschrijven?  
 
 <AnswerAndReveal>
 
@@ -101,6 +101,14 @@ Probeer nu zelf de stappen in de juiste volgorde te zetten zoals beschreven in d
 ]}/>
 
 ### 3. Welke andere algoritmes ken je?
+We hebben hierboven al een paar voorbeelden aangehaald van algoritmes:
+- Een recept (een kookalgoritme)
+- Het inladen van een wasmachine
+
+Welke andere algoritmes ken je vanuit je dagelijkse leven?  
+Kies er een uit en typ dit neer in het formulier dat hieronder is gelinkt.  
+Schrijf dan ook kort uit wat de verschillende stappen zijn in dat algoritme.  
+
 <AnswerAndReveal multiline>
 Dit antwoord kan niet automatisch verbeterd worden omdat er zeer veel antwoorden mogelijk zijn.
 

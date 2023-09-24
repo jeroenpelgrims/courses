@@ -17,7 +17,7 @@
 				<input
 					class="input"
 					type="text"
-					placeholder="Vul je antwoord in"
+					placeholder="Typ hier je antwoord"
 					required
 					disabled={reveal}
 				/>
