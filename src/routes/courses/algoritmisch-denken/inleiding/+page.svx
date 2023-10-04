@@ -1,5 +1,6 @@
 <script lang="ts">
   import Youtube from "$lib/components/Youtube.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
 </script>
 
 # Inleiding
@@ -28,4 +29,4 @@ In dit onderdeel zullen we zien:
 - Wat programma's zijn
 - Hoe we zelf algoritmes kunnen opstellen
 
-<a href="/courses/algoritmisch-denken/algoritmes/wat-is-een-algoritme" class="button is-primary">Ga verder</a>
+<NextPrevious nextLink="./algoritmes/wat-is-een-algoritme" />

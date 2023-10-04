@@ -1,0 +1,89 @@
+<script>
+  import Youtube from "$lib/components/Youtube.svelte"
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import Definition from "$lib/components/Definition.svelte"
+  import AnswerAndReveal from "$lib/components/exercise/AnswerAndReveal.svelte"
+  import OrderAnswers from "$lib/components/exercise/OrderAnswers.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+</script>
+
+# Wat is een programma?
+
+<KennenEnKunnen doelen={[
+  "Weten wat een (computer)programma is",
+  "Weten wat het verschil is tussen een algoritme en een computerprogramma"
+]} />
+
+![Een computerscherm met programmeercode er op](./programma.jpg)
+
+## Wat is een programma?
+De processor is het onderdeel in de computer dat instructies uitvoert.  
+De computer kan zelf niet nadenken maar kan alleen instructies uitvoeren die hem gegeven worden.  
+
+Een computer is dus een ideaal hulpmiddel om algoritmes automatisch te laten uitvoeren want algoritmes zijn gewoon een lijst van instructies.
+
+### Computertaal
+Maar computers verstaan geen gewone spreek- of schrijftaal.  
+Daarom moeten algoritmes eerst in een speciale computertaal of programmeertaal geschreven worden.  
+Op deze manier begrijpt de computer de stappen in het algoritme.
+
+<Definition title="Eigenschappen van een computerprogramma">
+
+  Wanneer een algoritme is neergeschreven op een manier dat de computer dit begrijpt noemen we dit een
+  **(computer)programma.**
+  **Alle** computerprogrammas zijn geschreven op basis van een algoritme.
+</Definition>
+
+#### Verschil tussen een algoritme en een (computer)programma
+
+<table class="table is-bordered is-hoverable is-fullwidth">
+  <thead>
+    <tr>
+      <th>Algoritme</th>
+      <th>Programma</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Een algoritme is een <u>beschrijving</u> van hoe je een probleem kan oplossen.</td>
+      <td>
+        <p>Een programma is een <u>implementatie</u> van een algoritme.</p>
+        <p>(Het algoritme is neergeschreven in een programmeertaal die de computer begrijpt)</p>
+      </td>
+    </tr>
+    <tr>
+      <td>De computer verstaat dit niet en kan dit niet uitvoeren</td>
+      <td>De computer kan dit wél uitvoeren en verstaan</td>
+    </tr>
+  </tbody>
+</table>
+
+### Programmeertalen
+Er zijn verschillende types programmeertalen met elk hun eigen doelen.
+
+Een videospel zal bijvoorbeeld in een andere programmeertaal geschreven worden dan een website.
+Bij verzekeringsmaatschappijen gebruiken ze speciale programmeertalen om statistische berekeningen te maken.
+
+#### Een paar populaire programmeertalen
+![Logos van bekende programmeertalen](./programmeertalen.png)
+
+| Naam programmeertaal | Waarvoor de taal gebruikt wordt |
+| - | - |
+| Java | Desktop applicaties, Games, Android apps |
+| C++ | Programma's die zeer snel moeten draaien en niet groot mogen zijn, Games, Desktop applicaties |
+| Python | Desktop applicaties, websites, wetenschappelijke berekeningen |
+| C# | Desktop applicaties, Websites, Games |
+| Javascript | Voornamelijk websites |
+| PHP | Websites |
+| R | Statistische berekeningen |
+| MATLAB | Statistische en wetenschappelijke berekeningen |
+| Swift | Wordt vooral gebruikt om Apple apps te schrijven |
+| Objective-C | Wordt vooral gebruikt om Apple apps te schrijven |
+
+### Oefening
+<iframe style="border: none; max-width: 100%; max-height: 100vh;" src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__YywobJUM1ZSUVk5SjBXWlA0MDg4M1lKUkZIVDdCMi4u&amp;embed=true" width="100%" height="1500px" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen="allowfullscreen"> </iframe>
+
+<NextPrevious
+  previousLink="../wat-is-een-algoritme"
+  nextLink="/courses/algoritmisch-denken/TODO"
+/>

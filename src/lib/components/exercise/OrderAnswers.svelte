@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let correctOrder: string[];
+
 	let userOrder = correctOrder
 		.map((item) => [item, Math.random()] as const)
 		.sort((a, b) => a[1] - b[1])

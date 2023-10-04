@@ -4,6 +4,7 @@
   import Definition from "$lib/components/Definition.svelte"
   import AnswerAndReveal from "$lib/components/exercise/AnswerAndReveal.svelte"
   import OrderAnswers from "$lib/components/exercise/OrderAnswers.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
 </script>
 
 # Wat is een algoritme?
@@ -137,3 +138,5 @@ Hieronder nog een paar voorbeelden:
 7. Spoel je tandenborstel af en zet hem terug.
 
 </AnswerAndReveal>
+
+<NextPrevious previousLink="../inleiding" nextLink="./wat-is-een-programma" />
