@@ -1,0 +1,45 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+</script>
+
+# 2. Analyse
+<KennenEnKunnen doelen={[
+  "Weten wat je moet doen in een analyse."
+]} />
+
+De analyse houdt de volgende vragen in:
+- Wat heb je tot je beschikking?
+- Welke verwerking moet er met deze beschikbare onderdelen gebeuren?
+
+## Lego voorbeeld
+
+### Wat is er ter beschikking?
+
+We hebben witte blokken, gele blokken, grijze blokken, enz…  
+Mochten we zien dat we geen blauwe blokken hebben kunnen we dus later bij het opstellen van het algoritme niet zeggen “bouw een blauwe toren”, want daarvoor hebben we niet alle benodigde materiaal.
+
+![Lego blokjes in verschillende kleuren](./blokjes.jpg)
+
+### Welke verwerking moet er gebeuren?
+
+De blokken moeten zo worden neergezet dat we uiteindelijk een lego kasteel hebben.
+
+- We gaan de blokken nog niet écht neer zetten maar moeten wel ongeveer weten wat we er mee gaan doen.
+We weten dus bijvoorbeeld dat we ze niet gaan gebruiken om in het rond te gooien, maar dat we ze gaan neer zetten en op elkaar zetten.
+
+![Een plan om een kasteel te bouwen met legoblokjes](./kasteelplan.jpg)
+
+## Kook voorbeeld
+
+Als we bijvoorbeeld iets willen koken kunnen we in de keuken zien welke gereedschappen er zijn dat we kunnen gebruiken.
+
+![Kookgerei](./kookgerei.jpg)
+
+Mocht het hier blijken dat we geen deegrol hebben, dan weten we al dat het moeilijk gaat zijn om een recept op te stellen waar we een platte deeg bodem nodig hebben.
+
+
+<NextPrevious
+  previousLink="./1-probleemdefinitie"
+  nextLink="./3-algoritme-opstellen"
+/>

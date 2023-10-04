@@ -85,5 +85,5 @@ Bij verzekeringsmaatschappijen gebruiken ze speciale programmeertalen om statist
 
 <NextPrevious
   previousLink="../wat-is-een-algoritme"
-  nextLink="/courses/algoritmisch-denken/TODO"
+  nextLink="../probleemoplossend-denken"
 />

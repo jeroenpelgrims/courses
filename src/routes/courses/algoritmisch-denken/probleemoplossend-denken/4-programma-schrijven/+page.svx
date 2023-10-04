@@ -1,0 +1,52 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+  import Youtube from "$lib/components/Youtube.svelte"
+</script>
+
+# 4. Programma schrijven
+
+<KennenEnKunnen doelen={[
+  "Weten dat een programma een vertaling is van een algoritme voor een computer.",
+  "Weten dat deze vertaling gebeurt aan de hand van een programmeertaal of computertaal."
+]} />
+
+## Programma schrijven
+Nadat je hebt bepaald welke stappen er moeten worden uitgevoerd om van je probleem tot je doel te komen kan je dit automatiseren door een computer het algoritme te laten uitvoeren.
+
+Maar zoals gezegd in het deel “Wat is een programma?” kunnen we niet gewoon ons algoritme aan de computer geven.  
+Het algoritme moet eerst worden omgezet in een taal die de computer verstaat. Een programmeertaal, of code.
+
+Met deze code beschrijven we elke stap in het algoritme.  
+
+Een algoritme is dus zo neergeschreven dat mensen het kunnen verstaan, en een programma is datzelfde algoritme vertaald naar een computertaal zodat een computer dat kan verstaan.
+
+## Lego voorbeeld
+
+<Youtube code="Bn0Jg326drw?start=47&end=71"/>
+
+Voor deze robot is een speciaal programma geschreven gebaseerd op een algoritme om een lego torentje te bouwen.
+
+## Voorbeeld algoritme & code
+
+Een voorbeeld van het algoritme en de code zou dit kunnen zijn:
+
+![Een fictief algoritme en de bijbehorende code](./algoritme-programma.png)
+
+<blockquote>
+
+  **Opgelet!**  
+  Dit is geen echt algoritme en geen echte code, het is maar een voorbeeld om aan te tonen hoe verschillend deze 2 er kunnen uitzien.  
+    Het programma is geschreven in de programmeertaal Python.
+</blockquote>
+
+<NextPrevious
+  previousLink="./3-algoritme-opstellen"
+  nextLink="./5-testen-en-documenteren"
+/>
+
+<style>
+  img{
+    border: 2px solid #ccc;
+  }
+</style>

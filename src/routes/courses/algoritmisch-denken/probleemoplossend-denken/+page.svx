@@ -1,0 +1,29 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+</script>
+
+# Probleemoplossend denken
+
+<KennenEnKunnen doelen={[
+  "Weten welke stappen er bij probleemoplossend denken gebruikt worden.",
+  "Weten in welke volgorde de stappen uitgevoerd worden."
+]} />
+
+Algoritmisch denken wordt ook probleemoplossend denken genoemd.  
+Als je een probleem hebt begin je best niet willekeurig wat dingen uit te proberen om tot je doel te komen maar denk je best even na welke stappen je kan ondernemen.
+
+Bij probleemoplossend denken gebruiken we de volgende stappen om tot een goed algoritme te komen.
+
+1. [Probleemdefinitie](./probleemoplossend-denken/1-probleemdefinitie)
+1. [Analyse](./probleemoplossend-denken/2-analyse)
+1. [Algoritme opstellen](./probleemoplossend-denken/3-algoritme-opstellen)
+1. [Programma schrijven](./probleemoplossend-denken/4-programma-schrijven)
+1. [Testen en documenteren](./probleemoplossend-denken/5-testen-en-documenteren)
+
+Elk van deze stappen zullen we nu nader bekijken in de volgende stukken.
+
+<NextPrevious
+  previousLink="./algoritmes/wat-is-een-programma"
+  nextLink="./probleemoplossend-denken/1-probleemdefinitie"
+/>

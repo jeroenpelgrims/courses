@@ -8,8 +8,18 @@
 	<slot />
 </main>
 
-<style>
+<style lang="scss">
 	:global(html) {
 		font-size: 14px;
+	}
+
+	:global(ol),
+	:global(ul) {
+		:global(> li) {
+			> :global(ol),
+			> :global(ul) {
+				margin-top: 0.25em !important;
+			}
+		}
 	}
 </style>

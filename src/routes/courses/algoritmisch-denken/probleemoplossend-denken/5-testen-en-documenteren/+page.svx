@@ -1,0 +1,11 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+</script>
+
+5
+
+<NextPrevious
+  previousLink="./4-programma-schrijven"
+  nextLink="./"
+/>

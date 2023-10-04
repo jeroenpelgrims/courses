@@ -1,0 +1,105 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+</script>
+
+# 3. Algoritme opstellen
+
+<KennenEnKunnen doelen={[
+  "Weten wat een deelprobleem is",
+  "Zelf een simpel algoritme kunnen opstellen"
+]} />
+
+## Ons probleem opsplitsen in deelproblemen (decompositie)
+
+![Een opsplitsing van een probleem](./decompositie.png)
+
+Als je probleem wat groter is dan maak je niet 1 groot algoritme maar deel je het probleem op in kleinere stukken.  
+Deze kleinere stukken noemen we deelproblemen.  
+Op deze manier heb je meerdere kleinere problemen die apart makkelijker op te lossen zijn dan een groot probleem in één keer.
+
+Denk terug aan de video die in de inleiding staat (waar ik noedels maak).  
+Dan had ik dit algoritme ontworpen:
+
+1. Ik zoek eten
+1. Ik bereid het eten
+1. Ik eet het eten op
+
+Maar stap 2 is veel te vaag beschreven want ik wist niet hoe ik de noedels moest bereiden.  
+Stap 2 is dus een deelprobleem waarvoor dus een eigen stappenplan (algoritme) moet worden gemaakt.
+
+## Een stappenplan (algoritme) opstellen voor elk deelprobleem
+
+![Een lijst van stappen](./stappen.png)
+
+Je gaat nu voor elk deelprobleem stap voor stap uitleggen hoe je dit deelprobleem kan oplossen.  
+Voor stap 2 in het noedelprobleem waren dit de stappen:
+
+1. Doe 200ml water in een pannetje
+1. Doe de kruiden erbij
+1. Wacht tot het water kookt
+1. Voeg dan de noedels toe
+1. Wacht tot het water is weggekookt
+
+Nu weten we exact hoe we de noedels moeten bereiden.  
+Het volledige algoritme voor de video is dus dit:
+
+1. Ik zoek eten
+1. **Ik bereid het eten**
+    1. Doe 200ml water in een pannetje
+    1. Doe de kruiden erbij
+    1. Wacht tot het water kookt
+    1. Voeg dan de noedels toe
+    1. Wacht tot het water is weggekookt
+1. Ik eet het eten op
+
+## Deelproblemen in deelproblemen
+
+Het kan zijn dat in een deelprobleem nog andere deelproblemen zitten (En daarin nog eens enz…).  
+Hiervoor moet dan ook een algoritme worden opgesteld.
+
+Stel dat ik niet wist hoe ik 200 ml water in het pannetje moest doen, dan had dit het volledige algoritme kunnen zijn:
+
+1. Ik zoek eten
+1. Ik bereid het eten:
+    1. **Doe 200ml water in een pannetje**:
+        1. Zoek een pannetje en een maatbeker
+        1. Doe water in de maatbeker tot het water even hoog staat als de 200 ml lijn.
+        1. Doe dit water in het pannetje
+    1. Doe de kruiden erbij
+    1. Wacht tot het water kookt
+    1. Voeg dan de noedels toe
+    1. Wacht tot het water is weggekookt
+1. Ik eet het eten op
+
+## Lego voorbeeld
+**Deelproblemen**: We gaan ons lego kasteel niet in 1 keer helemaal bouwen, maar we bouwen *onderdeel per onderdeel*.  
+Een deelprobleem in ons kasteel zou kunnen zijn:
+
+- Hoe bouwen we een torentje?
+- Of hoe bouwen we de poort?
+
+Dit zijn kleinere problemen binnen ons hoofdprobleem.
+
+**Stappenplan**:  
+Om bijvoorbeeld een torentje te bouwen zou dit ons algoritme kunnen zijn.
+
+<img src="./torenplan.jpg" alt="Een plan om een torentje te bouwen in lego" class="fullwidth"/>
+
+<NextPrevious
+  previousLink="./2-analyse"
+  nextLink="./4-programma-schrijven"
+/>
+
+<style lang="scss">
+  img {
+    max-width: 33%;
+    float: right;
+
+    &.fullwidth {
+      max-width: 100%;
+      margin-bottom: 1rem;
+      float: none;
+    }
+  }
+</style>
