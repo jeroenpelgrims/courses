@@ -1,2 +1,4 @@
 - [Inleiding](./algoritmisch-denken/inleiding)
 - [Algoritmes](./algoritmisch-denken/algoritmes)
+- [Probleemoplossend denken](./algoritmisch-denken/probleemoplossend-denken)
+- [Zelf algoritmes ontwerpen](./algoritmisch-denken/zelf-algoritmes-ontwerpen)

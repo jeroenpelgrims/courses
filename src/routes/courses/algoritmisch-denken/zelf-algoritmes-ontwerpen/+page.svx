@@ -1,0 +1,5 @@
+- [Inleiding](./zelf-algoritmes-ontwerpen/inleiding)
+- [Proces blok](./zelf-algoritmes-ontwerpen/proces-blok)
+- [Selectie blok](./zelf-algoritmes-ontwerpen/selectie-blok)
+- [Iteratie blok](./zelf-algoritmes-ontwerpen/iteratie-blok)
+- [Vaak gemaakte fouten](./zelf-algoritmes-ontwerpen/vaak-gemaakte-fouten)

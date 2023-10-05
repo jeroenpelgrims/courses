@@ -1,0 +1,64 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+  import Youtube from "$lib/components/Youtube.svelte"
+</script>
+
+# Iteratie blok
+<KennenEnKunnen doelen={[
+  "Weten wat een iteratieblok in een diagram betekent",
+  "Zelf een diagram kunnen opstellen waarin een iteratie gebruikt wordt.",
+  "Het iteratieblok gebruiken in combinatie met procesblokken, selectieblokken en andere iteratieblokken",
+]} />
+
+Het woord iteratie betekent hetzelfde als het woord herhaling.  
+In de iteratie blok zullen we dus bepaalde andere blokken blijven herhalen.
+
+Bekijk de video hieronder voor een uitleg.
+
+<Youtube code="FZIcc1xNpMU" />
+
+Het deel dat in groen is aangeduid hierboven bevat een voorwaarde (of controle) waarvan het resultaat waar of niet waar is.  
+Zolang de voorwaarde waar is zullen alle blokken rechts van de groene haak herhaald worden.  
+In dit geval is dat de procesblok die in het blauw is aangeduid. "Giet water in het glas".  
+We blijven dus water gieten zo lang het glas niet vol is.
+
+Nadien, als de voorwaarde niet meer waar is, wanneer het glas vol is, dan drinken we het water op.  
+Deze laatste procesblok zit niet in het iteratieblok en wordt dus niet herhaald.
+
+# Oefeningen
+Maak een tekening van het diagram voor elke oefening.  
+
+Bekijk zeker ook eens de [vaak gemaakte fouten](./vaak-gemaakte-fouten) zodat je deze vermijd te maken.
+
+## Oefening 1: fietsband
+Tijdens het fietsen krijgen we een een platte fietsband.  
+We repareren de band en moeten deze nadien opblazen met onze fietspomp.  
+Hoe zou een NSD er kunnen uitzien voor deze fietsband op te blazen?  
+
+We gaan er van uit dat onze fietspomp een drukmeter heeft en dat de bandendruk 4 bar moet zijn.
+
+## Oefening 2: autostrade
+Beeld je in dat je op de autostrate aan het rijden bent naar ergens.  
+Je moet blijven rijden tot je aan je bestemming aankomt.  
+Maar als je op de autostrade een afrit tegen komt moet je wel de keuze maken of je er af rijd of niet.
+
+Hoe zou je dit opstellen in een NSD?  
+Denk er aan dat je bepaalde blokken in andere blokken kunt steken.
+
+## Oefening 3: kleren sorteren
+Stel, je hebt een wasmand vol met kleren die gewassen moeten worden.  
+Elk kledingstuk in de wasmand moet eerst gesorteerd worden in een hoop van witte kleren en gekleurde kleren.  
+Hoe zou je dit voorstellen in een NSD?
+
+## Oefening 4: verkeerslicht
+Een verkeerslicht loopt telkens door de zelfde volgorde van kleuren.  
+Eerst groen, dan oranje, dan rood. (En dan weer groen)  
+Stel dit algoritme voor in een NSD.
+
+Bewerk je algoritme zodat het ook de situatie behaldelt wanneer een voetganger op het knopje heeft geduwd om over te gaan.
+
+<NextPrevious
+  previousLink="./selectie-blok"
+  nextLink="../zelf-programmas-schrijven"
+/>

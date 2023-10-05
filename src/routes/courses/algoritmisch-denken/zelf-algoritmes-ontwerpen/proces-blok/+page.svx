@@ -1,0 +1,95 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+  import Youtube from "$lib/components/Youtube.svelte"
+</script>
+
+# Proces blok
+<KennenEnKunnen doelen={[
+  "Weten wat een procesblok in een diagram betekent",
+  "Zelf een diagram kunnen opstellen door procesblokken te gebruiken"
+]} />
+
+<Youtube code="UNfXIYuSylI" />
+
+Het eerste, en simpelste blokje dat je kan gebruiken in een Nassi-Shneiderman diagram is het procesblok.
+Dit duid eigenlijk gewoon een stap aan die moet worden uitgevoerd.
+
+![](./proces.png)
+
+Het ziet er uit als een rechthoek met daarin tekst.
+De tekst duid aan wat er moet gebeuren in deze stap.
+
+## Blokken combineren
+In een algoritme is de volgorde van de stappen belangrijk.  
+De volgorde waarin je de blokken plaatst is dus ook belangrijk!  
+De blokken worden van boven naar beneden uitgevoerd.
+
+![](./volgorde.png)
+
+## Omelet voorbeeld
+Het algoritme om een omelet te bakken uit het onderdeel “Wat is een algoritme?” kan dus zo getekend worden als een Nassi-Shneiderman diagram:
+
+![](./omelet.png)
+
+## Hoe proces blokken tekenen?
+Om onze diagrammen te tekenen zullen we gebruik maken van draw.io.  
+Hierin kunnen we digitaal diagrammen tekenen en deze opslagen als afbeeldingen op de computer.
+
+<Youtube code="VXaM4bA3QKY"/>
+
+# Oefeningen
+Volg bij het uitvoeren de stappen 1-3 van [probleemoplossend denken](../probleemoplossend-denken).  
+Je schrijft dus de [probleemdefinitie](../probleemoplossend-denken/1-probleemdefinitie) en de [analyse](../probleemoplossend-denken/2-analyse) uit.  
+Nadien ontwerp je dan je diagram in [draw.io](https://draw.io)  
+
+Bekijk zeker ook eens de [vaak gemaakte fouten](./vaak-gemaakte-fouten) zodat je deze vermijd te maken.
+
+## Oefening 1. Noedels maken
+Teken een NSD (Nassi–Shneiderman diagram) uit dat de stappen bevat die je moet uitvoeren om een pakket noedels klaar te maken.  
+De verschillende stappen kan je hieronder op de achterkant van het noedelpakket aflezen.  
+
+Gebruik alleen de nuttige tekst.  
+Je mag ook stappen opdelen als dit het algoritme makkelijker maakt.
+
+![](./noedels.jpg)
+
+## Oefening 2. Geld afhalen van een bankautomaat
+Beeld je in dat je iets wilt gaan kopen waarvoor je cash geld nodig hebt.  
+Maar je doet je portefeulle open en je ziet dat hij leeg is.  
+Teken een algoritme uit om dit probleem op te lossen.  
+
+![](./atm.png)
+
+## Oefening 3. Een boterham met muizenstrontjes smeren
+Teken een algoritme uit in een NSD dat uitlegt hoe je een boterham met muizenstrontjes (hagelslag) maakt.  
+In één van je stappen moet je boter smeren.
+
+![](./boterham.jpg)
+
+## Oefening 4. Croque monsieur maken
+Teken een algoritme uit in een NSD dat uitlegt hoe je een Croque monsieur (of tosti) maakt.  
+Een croque monsieur bevat meestal de volgende ingredienten: Brood, ham, kaas.
+
+![](./croque.png)
+
+## Oefening 5. Schoenen knopen
+
+Teken een algoritme uit in een NSD dat de stappen toont om schoenveters te knopen.
+
+<Youtube code="6oHVewk3dRk" />
+
+## Oefening 6. Papieren vliegtuig vouwen
+Teken een algoritme uit in een NSD dat de stappen toont hoe je een papieren vliegtuigje kan vouwen.  
+Je kan een van de stappenplannen hieronder gebruiken, of je kan je eigen favoriete vliegtuig uitleggen.
+
+### Zweeftopper
+![](./zweeftopper.jpg)
+
+### Origami vliegtuig
+![](./origami.png)
+
+<NextPrevious
+  previousLink="./inleiding"
+  nextLink="./selectie-blok"
+/>

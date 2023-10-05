@@ -1,0 +1,44 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+</script>
+
+# Zelf algoritmes ontwerpen
+
+<KennenEnKunnen doelen={[
+  "Weten wanneer en waarom we een diagram gebruiken om een algoritme voor te stellen",
+  "Weten wat een Nassi-Shneiderman diagram is",
+  "Weten dat een Nassi-Shneiderman diagram uit verschillende types blokken bestaan"
+]} />
+
+Gewone algoritmes kunnen we nog gewoon met wat tekst beschrijven.  
+Maar vanaf dat het wat ingewikkelder gebruiken we best een gestructureerde manier om ons algoritme te beschrijven.
+
+Door een complex algoritme als een diagram te tekenen wordt het makkelijker te verstaan.  
+Er zullen ook minder verwarringen voorkomen als iemand anders je diagram leest.
+
+## Nassi-Shneiderman diagram
+Één zo'n type diagram is een Nassi-Shneiderman diagram.
+
+![](./nsd.png)
+> Dit is een voorbeeld van een Nassi-Shneiderman diagram waar alle mogelijke blokken gebruikt zijn.
+
+### Blokken 
+Een Nassi-Shneiderman diagram is samengesteld uit verschillende blokken die elk hun eigen betekenis hebben.  
+Deze blokken worden dan met elkaar gecombineerd om een algoritme te bouwen.
+
+#### Proces blok
+![Een voorbeeld van een proces blok](./proces.png)
+
+#### Selectie blok
+![Een voorbeeld van een selectie blok](./selectie.png)
+
+#### Iteratie blok
+![Een voorbeeld van een iteratie blok](./iteratie.png)
+
+In de volgende stukken zullen we elk blokje bekijken, uitleggen wat hun doel is en hoe we ze kunnen gebruiken.
+
+<NextPrevious
+  previousLink="../probleemoplossend-denken/5-testen-en-documenteren"
+  nextLink="./proces-blok"
+/>

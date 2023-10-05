@@ -1,0 +1,3 @@
+# Algoritmes
+- [Wat is een algoritme](./algoritmes/wat-is-een-algoritme)
+- [Wat is een programma](./algoritmes/wat-is-een-programma)

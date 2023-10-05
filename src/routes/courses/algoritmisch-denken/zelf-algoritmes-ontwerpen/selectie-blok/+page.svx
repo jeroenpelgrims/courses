@@ -1,0 +1,128 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+  import Youtube from "$lib/components/Youtube.svelte"
+</script>
+
+# Selectie blok
+
+<KennenEnKunnen doelen={[
+  "Weten wat een selectieblok in een diagram betekent", 
+  "Zelf een diagram kunnen opstellen waarin een selectieblok gebruikt wordt.", 
+  "Het selectieblok gebruiken in combinatie met procesblokken of andere selectieblokken", 
+]} />
+
+<Youtube code="4YSkCZsWn94" />
+
+Het tweede blokje is het selectie blok.  
+Deze duidt aan dat er een keuze moet gemaakt worden in je algoritme.  
+Op basis van deze keuze ga je dan sommige dingen wel of net niet doen.  
+Op deze plek krijg je dan een splitsing. Je zult dan 2 kolommen van proces blokken naast elkaar zien.  
+
+Hieronder is de selectieblok in het vet aangeduid:
+
+![](./selectie-vet.png)
+
+De selectieblok staat dus tussen andere blokken in.  
+De blokken worden nog steeds van boven naar beneden uitgevoerd.  
+In dit voorbeeld is dit de volgorde waarop de blokken worden uitgevoerd:  
+
+1. Zoek iets om te eten
+1. Dan wordt de selectieblok uitgevoerd
+1. Eet de boterham op
+
+Hoe de selectieblok werkt zien we hieronder.
+
+## Selectie met 2 keuzes
+![](./keuzes.png)
+
+Groene driehoek: De keuze die gemaakt moet worden.  
+Blauw: De eerste keuzemogelijkheid. (Choco in dit geval)  
+Rood: De tweede keuzemogelijkheid. (Hagelslag in dit geval)
+
+Als je choco kiest dan word de procesblok onder de blauwe driehoek uitgevoerd.  
+“Smeer de choco op het brood”.  
+De procesblokken onder de keuze Hagelsag worden niet uitgevoerd.
+
+Maar als je hagelslag kiest dan worden de blokken onder de rode driehoek uitgevoerd.  
+2 blokken dus: “Smeer border op het brood” en “Strooi hagelslag over de boter”.  
+Maar de procesblok “Smeer de choco op het brood” wordt niet uitgevoerd, omdat die niet onder de rode driehoek staan.  
+
+## Meer dan 2 keuzes
+Een selectieblok kan ook méér dan 2 keuzes hebben.  
+Bekijk onderstaande video.
+
+<Youtube code="gA-n_Gqd-90" />
+
+## Selectieblokken *in* selectieblokken
+
+Onder de keuzes in een selectieblok kan je dus andere blokken zetten om uit te voeren.  
+Je kan daar *eender welk type* blok zetten.  
+Tot nu toe hebben we enkel maar procesblokken onder de keuzes gezet, maar je kan er ook nog eens een selectieblok onder zetten!  
+Zo krijgen we dus een selectieblok in een selectieblok.
+
+Een voorbeeld:
+![](./nested.png)
+
+Hier moeten we dus eerst kiezen of we choco willen of hagelslag.  
+Als we voor hagelslag kiezen moeten we ook nog eens kiezen of we boter willen of niet.
+
+Deze video legt het verder uit:
+<Youtube code="F44uiuWh2ZQ" />
+
+## Hoe een selectieblok tekenen
+<Youtube code="B8c7ZxdrXlE" />
+
+# Oefeningen
+Volg de stappen in deze oefening.  
+Nadien kan je onderaan deze pagina zien naar een mogelijke oplossing.
+
+Bekijk zeker ook eens de [vaak gemaakte fouten](./vaak-gemaakte-fouten) zodat je deze vermijd te maken.
+
+## Oefening 1: Een ei koken
+Teken het NSD (Nassi–Shneiderman diagram) om een ei te koken.  
+In je diagram moet je de keuze kunnen maken tussen een hardgekookt of zachtgekookt ei.
+
+Ter informatie:
+
+Om een **zachtgekookt** ei te hebben moet een ei **4,5 minuten** koken
+Om een **hardgekookt** ei te hebben moet een ei **8 minuten** koken
+
+## Oefening 2: Thee maken
+**1. Diagram om een simpele thee te maken**
+
+Bedenk even de situatie waarbij iemand een tas thee bestelt in een café.  
+Hoe zou het NSD voor het maken van de thee er kunnen uitzien?  
+Teken dit diagram. (In dit diagram moet je dus nog geen keuze maken)
+
+**2. Een keuze toe voegen**
+In een café kan je normaal gezien eerst kiezen welke thee je juist wilt.  
+Bijvoorbeeld zwarte thee, fruitthee, muntthee, …  
+Welke stap in ons diagram zou dan veranderen?
+
+Voeg een stap toe in je diagram waarin je kunt kiezen welke thee je wil.
+
+**3. Nog een keuze**
+Sommige mensen hebben graag suiker in hun thee.
+
+Voeg een stap toe aan je diagram waarin je de keuze kan maken om wel of geen suiker toe te voegen aan de thee.
+
+**4. Nog meer keuzes**
+Voeg ook stappen toe in je diagram voor de volgende keuzes:
+
+- Of je melk in je thee wilt
+- Of je citroen in je thee wilt
+
+## Oefening 3: De juiste trein nemen
+
+Als je een trein wil nemen naar ergens moet je natuurlijk zien dat je de juiste trein neemt op het juiste perron.  
+Maak een NSD waarin een persoon kan kiezen om naar een bepaalde stad te gaan.  
+Dit NSD moet deze persoon dan begeleiden naar het juiste perron.  
+
+Hieronder een voorbeeld van mogelijke steden en perrons:
+![](./treinen.png)
+
+<NextPrevious
+  previousLink="./proces-blok"
+  nextLink="./iteratie-blok"
+/>

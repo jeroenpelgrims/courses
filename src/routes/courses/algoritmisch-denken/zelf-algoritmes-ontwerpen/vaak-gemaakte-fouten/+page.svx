@@ -1,0 +1,61 @@
+<script>
+  import KennenEnKunnen from "$lib/components/KennenEnKunnen.svelte"
+  import NextPrevious from "$lib/components/NextPrevious.svelte"
+  import Youtube from "$lib/components/Youtube.svelte"
+</script>
+
+# Vaak gemaakte fouten
+
+Hieronder vinden jullie een lijstje van vaak gemaakte fouten bij het tekenen van de diagrammen.
+
+## Fout: Plaatsing van blokken
+Het is belangrijk dat blokken aansluiten op elkaar.  
+Anders is het niet duidelijk waar een diagram begint en eindigt.
+
+| ❌ | ✔️ | 
+| - | - | 
+| ![](./aansluiten-fout.png) | ![](./aansluiten-juist.png) | 
+
+<Youtube code="V6h1kODnVVw" />
+
+## Fout: Blokken naast 
+Blokken kunnen enkel naast elkaar staan in een selectieblok.
+
+In het foute diagram hieronder staan de proces blokken “Voeg suiker toe” en “Voeg citroen toe” naast elkaar. Dit kan niet.  
+Ze kunnen enkel naast elkaar staan in 1 van de kolommen in een selectie blok.  
+De keuze die gemaakt moet worden moet er dus duidelijk staan.  
+
+| ❌ | ✔️ | 
+| - | - | 
+| ![](./naast-fout.png) | ![](./naast-juist.png) | 
+
+<Youtube code="DLKsHWw7bvQ" />
+
+## Fout: Geen blokken onder de keuzes in een selectieblok
+Onder elke keuze in een selectieblok moeten er blokken staan die worden uitgevoerd als die keuze gekozen wordt.  
+De keuze die gemaakt moet worden moet ook duidelijk genoteerd worden.
+
+| ❌ | ✔️ | 
+| - | - | 
+| ![](./keuzes-fout.png) | ![](./keuzes-juist.png) | 
+
+<Youtube code="_KlYzTn0Fyk" />
+
+## Fout: De haak van de iteratie blok
+
+In het voorbeeld hieronder is het niet duidelijk waar de “Was je kleren” proces blok staat.  
+Moet deze herhaald worden - en staat deze dus in de iteratie blok?  
+Of moet deze niet herhaald worden en staat deze er buiten?
+
+| ❌ | ✔️ | 
+| - | - | 
+| ![](./haak-fout.png) | **Was je kleren wordt wel herhaald**: ![](./haak-juist1.png) | 
+| | **Was je kleren wordt niet herhaald**: ![](./haak-juist2.png) | 
+
+
+<style>
+  th {
+    text-align: center!important;
+    font-size: 1.5rem;
+  }
+</style>

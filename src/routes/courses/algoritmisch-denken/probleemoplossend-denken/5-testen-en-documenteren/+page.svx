@@ -3,9 +3,48 @@
   import NextPrevious from "$lib/components/NextPrevious.svelte"
 </script>
 
-5
+# 5. Testen en documenteren
+
+<KennenEnKunnen doelen={[
+  "Weten waarom je test",
+  "Weten waarom je documenteert"
+]} />
+
+Nadat we ons programma hebben geschreven moeten we testen of het werkt.
+
+## Lego voorbeeld
+
+### Werkt ons programma ook als we blauwe blokken gebruiken in plaats van rode? En met gele?
+![Een hoop met lego blokjes](./blokjes.jpg)
+
+### Bouwt ons programma wel een toren? Of bouwt het iets anders?
+![Een boot gebouwd met lego blokjes](./boot.jpg)
+
+### Kan onze robot de blokjes nog vinden als ze op deze tafel liggen?
+![Een tafel met een tafelblad gemaakt uit legoblokjes](./tafel.jpg)
+
+## Documenteren
+
+Na het schrijven van een programma is het belanglijk dat andere mensen je code kunnen begrijpen.  
+Daarom kan het handig zijn om documentatie schrijven die verklaart wat je code doet.
+Één manier om dit te doen is om commentaar te schrijven in je code.
+
+In de code hieronder is de tekst die achter de 2 schuine strepen staat commentaar. (De tekst die in het grijs staat)  
+Commentaar in programmeercode wordt niet uitgevoerd door de computer. Het dient enkel en alleen om als extra uitleg te dienen voor mensen die de code lezen.  
+
+![Een stuk programmeercode met commentaren er in.](./code.png)
+
+Zelfs zonder te kunnen programmeren weet je nu ongeveer wat deze code doet. 
+
+### Iedereen is vergeetachtig
+
+Documenteren is ook handig voor jezelf!  
+Het gebeurt vaak dat als je een programma hebt geschreven, en je moet er een paar maanden later iets aan veranderen dat je helemaal geen idee meer hebt hoe je code ineen steekt!
+
+![Een webcomic over commentaar schrijven aan jezelf gericht](./future_self.png)
+> Bron: [XKCD](https://xkcd.com/1421/)
 
 <NextPrevious
   previousLink="./4-programma-schrijven"
-  nextLink="./"
+  nextLink="../zelf-algoritmes-ontwerpen/inleiding"
 />
